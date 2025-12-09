@@ -6,6 +6,7 @@ menu_keyboard.add(
     telebot.types.InlineKeyboardButton(text='📚 Каталог', callback_data='catalog'),
     telebot.types.InlineKeyboardButton(text='🛒 Корзина', callback_data='cart'),
     telebot.types.InlineKeyboardButton(text='💳 Баланс', callback_data='balance'),
+    telebot.types.InlineKeyboardButton(text='💬 Написать в поддержку', url='https://t.me/jowargi')
 )
 
 menu_return_keyboard = telebot.types.InlineKeyboardMarkup()

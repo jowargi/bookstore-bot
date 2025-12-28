@@ -1,3 +1,3 @@
 import telebot
 
-bot = telebot.TeleBot('token')
+bot = telebot.TeleBot("token")

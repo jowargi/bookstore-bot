@@ -31,7 +31,7 @@ def start_handler(message):
             total_amount=0,
         )
 
-    with open("./img/start.jpg", "rb") as photo:
+    with open(file="./img/start.jpg", mode="rb") as photo:
         bot.send_photo(
             chat_id=message.chat.id,
             photo=photo,
